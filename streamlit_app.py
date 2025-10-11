@@ -4,7 +4,7 @@ import streamlit as st
 # --- 1. SECURE API KEY CONFIGURATION ---
 # Use Streamlit's secrets management for the API key
 try:
-    genai.configure(api_key="AIzaSyBiv57ARkWPaETtcRO9uIvH5-5u_4akDtQ")
+    genai.configure(api_key="AIzaSyDv4uonUio5eBUXDCF7gpl8voNClAJUnms")
 except Exception as e:
     st.error("API Key not found or invalid. Please add it to your Streamlit secrets.")
     st.stop()
